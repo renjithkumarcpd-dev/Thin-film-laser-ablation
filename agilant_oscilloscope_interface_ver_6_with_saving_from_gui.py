@@ -1,16 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-InfiniiVision waveform export - full corrected script
-
-Features:
-- Primary CSV: single Time column + Channel A/B/C... with units row (s or us selectable)
-- Optional exact per-channel interleaved CSV (Time A, Channel A, Time B, Channel B,...)
-- Robust binary reads (BYTE/WORD) and careful scaling using waveform preamble
-- CLI flags: --save-plots, --points, --outdir, --basename, --exact-save, --time-unit {s,us}, --arm-after
-
-Usage examples:
-  python infinii_collect_exact_points_full_corrected.py --save-plots --time-unit us
-  python infinii_collect_exact_points_full_corrected.py --exact-save --time-unit s
+This program usedd for collecting data from Oscilloscope.
 """
 from __future__ import annotations
 
